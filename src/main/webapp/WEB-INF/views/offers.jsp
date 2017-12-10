@@ -25,7 +25,7 @@
 		<tr>
 			<td>2012</td>
 			<td>2</td>
-			<td></td>
+			<td>"${offer }"</td>
 			<td></td>
 		</tr>
 		<tr>
