@@ -9,6 +9,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+	<c:forEach var="offer" items="${offers}">
+		<p>
+			<c:out value="${offer}"></c:out>
+		</p>
+	</c:forEach>
 	<table>
 		<tr>
 			<td>년도</td>
