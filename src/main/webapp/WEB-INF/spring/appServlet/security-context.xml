@@ -22,7 +22,7 @@
 		<security:intercept-url pattern="/logout"
 			access="permitAll" />
 		<security:intercept-url pattern="/offers"
-			access="permitAll" />
+			access="isAuthenticated()" />
 		<security:intercept-url access="isAuthenticated()"
 			pattern="/createOffer" />
 		<security:intercept-url pattern="/resources/**"
